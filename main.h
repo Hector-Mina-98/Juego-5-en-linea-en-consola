@@ -1,0 +1,15 @@
+void MenuPpl(int filas, int columnas, int *p, int n);
+void opciones(int menux, int opc, int filas, int columnas, int *p, int n);
+void MenuJugar(int filas, int columnas, int *p, int n);
+void MenuDimensiones(int filas, int columnas, int *p, int n);
+void dimensiones(int filas, int columnas, int *p, int n);
+void juego(int filas, int columnas, int *p, int n);
+void imprimir(int filas, int columnas, int *p, int n, int nAux);
+void MenuNivel(int filas, int columnas, int *p, int n);
+void nivel(int filas, int columnas, int *p, int n);
+int iniciarTab(int filas, int columnas, int *p, int n);
+void TwoPlayers(int filas, int columnas, int *p, int n);
+int ganar(int filas, int columnas, int *p, int turno);
+void score(int filas, int columnas, int *p, int n);
+void llenarArchivo(int turno, int mod);
+int inteligencia(int filas, int columnas, int *p, int n);
